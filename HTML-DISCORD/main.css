@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 1.2rem "Fira Sans", sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  max-width: 100%;
+  min-height: 80px;
+  color: white;
+  background-color: rgb(64, 78, 237);
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.navigation {
+  display: flex;
+  gap: 15px;
+  margin-top: 36px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.icon-button {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  margin-right: 7%;
+}
+
+.discord {
+  width: 140px;
+  padding-top: 0;
+}
+
+.login {
+  color: #23272a;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 7%;
+}
+.login a {
+  color: black;
+  text-decoration: none;
+}
+
+.Welcome {
+  max-width: 100%;
+  height: 550px;
+  color: white;
+  background-color: rgb(64, 78, 237);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  background-image: url(media/bg3.svg), url(media/bg2.svg), url(media/bg1.svg);
+  background-position: -15% 100%, 105% 25%, 50% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto;
+  padding-top: 0;
+}
+.Welcome-text {
+  float: right;
+}
+.hello {
+  font-size: 56px;
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+}
+.paragraph {
+  font-size: 20px;
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.625;
+  text-align: center;
+}
+.download {
+  margin-top: 2%;
+}
+.download-ds {
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  background-color: #fff;
+  color: #23272a;
+  text-decoration: none;
+}
+.open-ds {
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  background-color: #23272a;
+  color: #fff;
+}
+
+.container-number {
+  background-color: white;
+  padding-bottom: 130px;
+  padding-top: 120px;
+}
+
+.con-number {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1180px;
+  margin: auto;
+}
+.Heading {
+  color: black;
+  font-family: Ginto, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.container-description {
+  color: var(--not-quite-black);
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer {
+  max-width: 100%;
+  height: 100%;
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 36px;
+  padding-bottom: 80px;
+}
+
+.footer-block a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 30px;
+  display: flex;
+}
+.footer-block {
+  color: rgb(64, 78, 237);
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.footer-text {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.copyright {
+  color: white;
+  float: left;
+  text-align: left;
+}
+
+#anchor {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #cfcfcf;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+#toggleTable {
+  display: none;
+}
+label{
+  background-color: antiquewhite;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+#tableDownload{
+  display: none;
+  border: 0px solid;
+  padding: 10px;
+}
+#toggleTable:checked ~ #tableDownload{
+  display: block;
+}
+
+.Linux{
+  position: relative;
+  display: inline-block;
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: bisque;
+  min-width: 160px;
+}
+.Linux:hover .dropdown{
+  display: block;
+}
